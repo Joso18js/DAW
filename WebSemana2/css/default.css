@@ -1,0 +1,71 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box; /*investigar esta etiqueta*/
+}
+
+body{
+    background: #f9f9f7 url('../images/a1.gif') repeat-x;
+    font-size: 11px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: #8c8c73;
+    line-height: 18px;   
+}
+a{
+    color: #ff7800;
+    text-decoration: none;
+
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+sup{
+    font-size: 0.5em;
+
+}
+
+p{
+    margin-bottom: 14px;
+    text-align: justify;
+
+}
+
+img.picA{
+    position: relative;
+    top: -2px;
+    width: 104px;
+    height: 104px;
+    padding: 8px;
+}
+
+img.picB{
+    position: relative;
+    top: -2px;
+    width: 146px;
+    height: 147px;
+    padding: 7px;
+}
+
+img.floatleft{
+    float: left;
+    margin: 0px 14px 3px 0px;
+}
+
+ul.linklist{
+    list-style: none;
+    
+}
+
+ul.linklist li{ /*esto es para todas las li dentro de las ul.linklist*/
+    border-top: solid 1px #eeeeee;
+    padding-top: 5px;
+    margin-top: 5px;
+}
+
+ul.linklist li.first{ 
+    border-top: solid 0px #eeeeee;
+    padding-top: 0px;
+    margin-top: 0px;
+}
